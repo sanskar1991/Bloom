@@ -24,4 +24,4 @@ class NewExpForm(forms.ModelForm):
 
     class Meta:
         model = NewExposure
-        fields = ("new_sub_value", "new_sub_value")
+        fields = ("new_sub_name", "new_sub_value")
